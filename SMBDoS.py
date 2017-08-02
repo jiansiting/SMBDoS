@@ -14,7 +14,7 @@ for p in range(p0,p0+700):
     t.sport = p
     t.flags = "S"
 
-    r = srl(i/t)
+    r = sr1(i/t)
     rt = r[TCP]
     t.ack = rt.seq + 1
     t.seq = rt.ack
